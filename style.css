@@ -8,18 +8,24 @@
 body{
     height: 100vh;
     width: 100vw;
-    background: url("https://classicalwisdom.com/wp-content/uploads/2022/01/marcusaurelius-statue.jpg") no-repeat;
-    background-size: 100% auto;
-    background-position-y: center;
-    background-position-x: right;
+
 }
 
 
 #main{
     position: relative;
     height: 100%;
-    width: 100%;
-    
+    width: auto;
+    background: url("https://classicalwisdom.com/wp-content/uploads/2022/01/marcusaurelius-statue.jpg") no-repeat;
+    background-size: 100% auto;
+    background-position-y: center;
+    background-position-x: center;
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
 }
 
 
@@ -41,9 +47,12 @@ body{
 #nav-container li:hover{
     color:white;
     background-color: black;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: bold;
+    transition: all .5s;
 }
+
+
 
 #nav-container ul{
     display: flex;
@@ -55,17 +64,34 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 50vw;
 }
+
 
 #left-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 50vw;
     color: white;
+    padding-left: 70px;
+    transition: all 0.3s;
 }
+
+#left-container:hover{
+    scale: 1.05;
+    transition: all 0.5s;
+}
+/* 
+#left-container #title:hover{
+    scale: 1.1;
+    transition: all 0.5s;
+}
+#left-container #tribute-info:hover{
+    scale: 1.1;
+    transition: all 0.5s;
+} */
 
 #tribute-info{
     margin: 20px 50px;
@@ -75,8 +101,14 @@ body{
     height: auto;
     border-radius: 10%;
     margin-bottom: 20px;
+    transition: all 0.5s;
 }
 
+#image:hover{
+    max-width: 50%;
+    height: auto;
+    transition: all 0.5s;
+}
 #title{
     display: flex;
     text-align: center;
@@ -84,6 +116,7 @@ body{
     /* transform: translateX(-50%); */
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3rem;
+    margin-bottom: 35px;
 }
 
 #content{
@@ -108,10 +141,12 @@ a#tribute-link{
     margin-top: 50px;
     font-size: .8rem;
     font-weight: bold;
+    transition: all 0.3s;
 }
 
 a#tribute-link:hover{
     transform: scale(1.2);
+    transition: all 0.3s;
 }
 
 #img-caption{
@@ -119,4 +154,10 @@ a#tribute-link:hover{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
+    width: 40%;
 }
+
+/* @media screen and (max-width: 860px) {
+    *
+} */

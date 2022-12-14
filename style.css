@@ -2,15 +2,18 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
     height: 100vh;
     width: 100vw;
-    background-image: url("https://classicalwisdom.com/wp-content/uploads/2022/01/marcusaurelius-statue.jpg");
+    background: url("https://classicalwisdom.com/wp-content/uploads/2022/01/marcusaurelius-statue.jpg") no-repeat;
     background-size: 100% auto;
     background-position-y: center;
+    background-position-x: right;
 }
+
 
 #main{
     position: relative;
@@ -46,33 +49,64 @@ body{
 
 #img-div{
     display: flex;
-    position: absolute;
-}
-
-#image{
-    opacity: .5;
-    margin: 0 auto;
-    max-width: 50vw;
-    height: auto;
-}
-
-#title{
-    display: flex;
-    position: absolute;
-    text-align: center;
-    padding-top: 50px;
-    /* width: 54%;
-    background-color: rgba(90, 88, 88, 0.25); */
-    left: 27%;
-    transform: translateX(-50%);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
 }
 
 #left-container{
     display: flex;
-    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    color: white;
+}
+
+#tribute-info{
+    margin: 20px 50px;
+}
+#image{
+    max-width: 50%;
+    height: auto;
+    border-radius: 10%;
+}
+
+#title{
+    display: flex;
+    text-align: center;
+    padding-top: 50px;
+    /* transform: translateX(-50%); */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+}
+
+#content{
+    display: flex;
+    flex-direction: row;
     width: 100%;
     height: calc(100% - 2.5rem);
-    background-color: rgba(90, 88, 88, 0.25);
+    background-color: rgba(90, 88, 88, 0.5);
+}
+
+a#tribute-link{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 3rem;
+    width: 8rem;
+    background-color: white;
+    color: black;
+    border: .2rem solid black;
+    border-radius: .5rem;
+    text-decoration: none;
+    margin-top: 50px;
+}
+
+#img-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
 }

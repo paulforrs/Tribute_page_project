@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 body{
@@ -95,6 +95,8 @@ a{
 
 #tribute-info{
     margin: 20px 50px;
+    text-align: justify;
+    text-indent: 50px;
 }
 #image{
     max-width: 40%;

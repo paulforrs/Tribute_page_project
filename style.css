@@ -41,6 +41,8 @@ body{
 #nav-container li:hover{
     color:white;
     background-color: black;
+    font-size: 1.3rem;
+    font-weight: bold;
 }
 
 #nav-container ul{
@@ -95,15 +97,21 @@ body{
 a#tribute-link{
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+    justify-content: center;
     height: 3rem;
     width: 8rem;
-    background-color: white;
+    background-color: rgb(161, 158, 158);
     color: black;
-    border: .2rem solid black;
+    border: .2rem solid rgb(65, 64, 64);
     border-radius: .5rem;
     text-decoration: none;
     margin-top: 50px;
+    font-size: .8rem;
+    font-weight: bold;
+}
+
+a#tribute-link:hover{
+    transform: scale(1.2);
 }
 
 #img-caption{

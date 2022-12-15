@@ -30,6 +30,10 @@ body{
     font-weight: bold;
 }
 
+.qoutes:last-child{
+    margin-bottom: 50px;
+}
+
 .qoutes:hover{
     scale: 1.3;
     transition: all .25s;

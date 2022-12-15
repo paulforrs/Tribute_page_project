@@ -34,7 +34,8 @@ a{
     flex-direction: row;
     justify-content: center;
     height: 2.5rem;
-    background-color: rgba(75, 73, 73, 0.825);
+    color: white;
+    background-color: rgba(12, 2, 68, 0.825);
 }
 
 #nav-container li{
@@ -74,13 +75,16 @@ a{
     justify-content: center;
     align-items: center;
     width: 50vw;
-    color: white;
     padding-left: 70px;
-    transition: all 0.3s;
+    transition: all 0.5s;
 }
 
-#left-container:hover{
-    scale: 1.05;
+#left-container span{
+    font-weight: bold;
+}
+
+#left-container:hover > :not(a){
+    scale: 1.2;
     transition: all 0.5s;
 }
 /* 
@@ -96,7 +100,7 @@ a{
 #tribute-info{
     margin: 20px 50px;
     text-align: justify;
-    text-indent: 50px;
+    /* text-indent: 50px; */
 }
 #image{
     max-width: 40%;
@@ -126,7 +130,8 @@ a{
     flex-direction: row;
     width: 100%;
     height: calc(100% - 2.5rem);
-    background-color: rgba(90, 88, 88, 0.5);
+    background-color: rgba(156, 128, 2, 0.633);
+    color: rgb(24, 15, 66);
 }
 
 a#tribute-link{

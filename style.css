@@ -17,7 +17,7 @@ body{
     height: 100%;
     width: auto;
     background: url("https://classicalwisdom.com/wp-content/uploads/2022/01/marcusaurelius-statue.jpg") no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
     background-position-y: center;
     background-position-x: center;
     overflow: hidden;
@@ -36,6 +36,8 @@ a{
     height: 2.5rem;
     color: white;
     background-color: rgba(12, 2, 68, 0.825);
+    position: fixed;
+    width: 100vw;
 }
 
 #nav-container li{
@@ -131,9 +133,10 @@ a{
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: calc(100% - 2.5rem);
+    height: 100%;
     background-color: rgba(156, 128, 2, 0.633);
     color: rgb(255, 255, 255);
+    margin-top: 2.5rem;
 }
 
 a#tribute-link{

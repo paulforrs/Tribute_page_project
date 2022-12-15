@@ -3,8 +3,11 @@ body{
 }
 #main{
     height: auto;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     background-attachment: fixed;
+    background-image: url("https://content.artofmanliness.com/uploads/2017/06/aurelius-1.jpg");
+    background-size: 50vw;
+    background-color: rgb(8,8,8);
 }
 #qoutes-container{
     display: flex;
@@ -15,12 +18,13 @@ body{
     margin: auto;
     margin-top: 2.5rem;
     padding-top: 20px;
+    background-color:rgba(51, 50, 50, 0.436);;
 }
 
 .qoutes{
     max-width: 70vw;
     height: auto;
-    background-color: white;
+    background-color: rgba(251, 248, 248, 0.785);
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 15px;
@@ -40,6 +44,12 @@ body{
 
 }
 
+.qoutes::after{
+    content:'― Marcus Aurelius, Meditations';
+    font-size: .8rem;
+}
+
 #title{
     padding-top: 0;
+    color: white;
 }

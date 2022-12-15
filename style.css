@@ -5,13 +5,6 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
-body{
-    height: 100vh;
-    width: 100vw;
-
-}
-
-
 #main{
     position: relative;
     height: 100%;
@@ -35,7 +28,7 @@ a{
     justify-content: center;
     height: 2.5rem;
     color: white;
-    background-color: rgba(12, 2, 68, 0.825);
+    background-color: rgb(12, 2, 68);
     position: fixed;
     width: 100vw;
 }

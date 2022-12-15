@@ -1,0 +1,59 @@
+#main{
+    background-image: url("https://i0.wp.com/pooran.net/wp-content/uploads/2021/09/blg-035.png?fit=1920%2C1080&ssl=1");
+    height: auto;
+    overflow: auto;
+}
+#fun-fact-container{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(91, 91, 191, 0.458);
+    margin-top: 2.5rem;
+    height: calc(100vh - 2.5rem);
+    align-items: center;
+    font-weight: bold;
+}
+
+#fun-fact-container ul{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: inherit;
+    width: auto;
+    justify-content: center;
+    line-height: 2;
+    padding: 20px 0;
+}
+
+/* #fun-fact-container ul li:first-child{
+    margin-top: 30px;
+} */
+
+/* #fun-fact-container ul li:last-child{
+    margin-bottom: 25%;
+} */
+
+#fun-fact-container ul li{
+    font-size: 1.8rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Yantramanav', sans-serif;
+}
+
+#title{
+    margin: 0;
+    padding: 0;
+    padding-left: 50px;
+    width: 25vw;
+    text-align: center;
+    align-items: center;
+    height: inherit;
+    font-family: 'Fredoka One', cursive;
+}
+
+#divider{
+    height: 80%;
+    width: 2px;
+    background-color: gray;
+    margin-left: 50px;
+    margin-right: 70px;
+    align-self: center;
+}

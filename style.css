@@ -101,6 +101,7 @@ a{
     margin: 20px 50px;
     text-align: justify;
     /* text-indent: 50px; */
+    transition: inherit;
 }
 #image{
     max-width: 40%;
@@ -123,6 +124,7 @@ a{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 3rem;
     margin-bottom: 35px;
+    transition: inherit;
 }
 
 .home{
@@ -131,7 +133,7 @@ a{
     width: 100%;
     height: calc(100% - 2.5rem);
     background-color: rgba(156, 128, 2, 0.633);
-    color: rgb(24, 15, 66);
+    color: rgb(255, 255, 255);
 }
 
 a#tribute-link{
